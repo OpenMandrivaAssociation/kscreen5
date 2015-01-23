@@ -24,6 +24,8 @@ BuildRequires:	cmake(Qt5Widgets)
 BuildRequires:	cmake(Qt5QuickWidgets)
 BuildRequires:	cmake(Qt5X11Extras)
 BuildRequires:	cmake(Qt5Test)
+BuildRequires:	ninja
+BuildRequires:	cmake
 
 %description
 KCM and KDED modules for managing displays in KDE.
