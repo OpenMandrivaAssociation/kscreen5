@@ -2,7 +2,7 @@
 
 Summary:	KDE Display Management software
 Name:		kscreen5
-Version:	5.2.1
+Version:	5.2.2
 Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/KDE
@@ -15,17 +15,19 @@ BuildRequires:	cmake(KF5ConfigWidgets)
 BuildRequires:	cmake(KF5I18n)
 BuildRequires:	cmake(KF5XmlGui)
 BuildRequires:	cmake(KF5GlobalAccel)
-BuildRequires:	cmake(Qt5Network)
-BuildRequires:	cmake(Qt5Core)
-BuildRequires:	cmake(Qt5Qml)
-BuildRequires:	cmake(Qt5Gui)
-BuildRequires:	cmake(Qt5Quick)
-BuildRequires:	cmake(Qt5Widgets)
-BuildRequires:	cmake(Qt5QuickWidgets)
-BuildRequires:	cmake(Qt5X11Extras)
-BuildRequires:	cmake(Qt5Test)
+BuildRequires:	pkgconfig(kscreen2)
+BuildRequires:	pkgconfig(Qt5Core)
+BuildRequires:	pkgconfig(Qt5Gui)
+BuildRequires:	pkgconfig(Qt5Network)
+BuildRequires:	pkgconfig(Qt5Qml)
+BuildRequires:	pkgconfig(Qt5Quick)
+BuildRequires:	pkgconfig(Qt5QuickWidgets)
+BuildRequires:	pkgconfig(Qt5Test)
+BuildRequires:	pkgconfig(Qt5Widgets)
+BuildRequires:	pkgconfig(Qt5X11Extras)
 BuildRequires:	ninja
 BuildRequires:	cmake
+Conflicts: kscreen
 
 %description
 KCM and KDED modules for managing displays in KDE.
