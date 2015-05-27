@@ -7,7 +7,7 @@ Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/KDE
 Url:		https://projects.kde.org/projects/playground/libs/kscreen
-Source0:	ftp://ftp.kde.org/pub/kde/%{stable}/plasma/%{version}/kscreen-%{version}.tar.xz
+Source0:	http://download.kde.org/%{stable}/plasma/%{version}/kscreen-%{version}.tar.xz
 BuildRequires:	cmake(KF5Screen)
 BuildRequires:	cmake(KF5DBusAddons)
 BuildRequires:	cmake(KF5ConfigWidgets)
