@@ -33,6 +33,7 @@ KCM and KDED modules for managing displays in KDE.
 %files -f all.lang
 %{_bindir}/kscreen-console
 %{_libdir}/qt5/plugins/*.so
+%{_libdir}/qt5/plugins/kf5/kded/*.so
 %{_datadir}/icons/*/*/*
 %{_datadir}/kcm_kscreen
 %{_datadir}/kservices5/*.desktop
