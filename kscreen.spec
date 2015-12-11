@@ -37,7 +37,6 @@ KCM and KDED modules for managing displays in KDE.
 %{_datadir}/icons/*/*/*
 %{_datadir}/kcm_kscreen
 %{_datadir}/kservices5/*.desktop
-%{_datadir}/kservices5/kded/*.desktop
 
 #------------------------------------------------------------------------------
 
