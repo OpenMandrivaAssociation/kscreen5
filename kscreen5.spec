@@ -2,7 +2,7 @@
 
 Summary:	KDE Display Management software
 Name:		kscreen5
-Version:	5.6.5
+Version:	5.7.0
 Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/KDE
@@ -50,7 +50,7 @@ KCM and KDED modules for managing displays in KDE.
 %install
 %ninja_install -C build
 
-%find_lang kcm_displayconfiguration
-%find_lang kscreen
-%find_lang plasma_applet_org.kde.plasma.kscreen
+%find_lang kcm_displayconfiguration || touch kcm_displayconfiguration.lang
+%find_lang kscreen ||touch kscreen.lang
+%find_lang plasma_applet_org.kde.plasma.kscreen || touch plasma_applet_org.kde.plasma.kscreen.lang
 cat *.lang >all.lang
