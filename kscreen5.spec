@@ -2,7 +2,7 @@
 
 Summary:	KDE Display Management software
 Name:		kscreen5
-Version:	5.10.4
+Version:	5.10.5
 Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/KDE
