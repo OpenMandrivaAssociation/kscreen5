@@ -1,4 +1,5 @@
 removed_sources:
   kscreen-5.10.5.tar.xz: 63fcb903226a9eb5a72cc38fbfaca1870d7a9892
-sources:
   kscreen-5.12.6.tar.xz: 4d0bf71eddc4bd3d79fb3409cd42aadc81619f58
+sources:
+  kscreen-5.12.7.tar.xz: 021fd277893f80119ce47acc979b548aecacf131
